@@ -35,7 +35,6 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
 * **flutter\_bluetooth\_serial** for Classic Bluetooth communication with ESP32.
 * **flutter\_local\_notifications + timezone** for reminders.
 
----
 ## Installation
 
 ### Hardware Setup
@@ -69,8 +68,6 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
    flutter run
    ```
 
----
-
 ## Usage
 
 * **Manual Mode:** Use arrow buttons on the patient app to drive (`F`, `B`, `L`, `R`, `S`, `U`).
@@ -79,7 +76,7 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
 * **Medicine Reminder:** Add medicines in Patient Profile → Guardian can view them.
 * **Chat:** Patients and guardians can communicate in real-time.
 
----
+
 
 ## Repository Structure
 
