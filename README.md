@@ -71,7 +71,7 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
 
 ---
 
-## 🚀 Usage
+## Usage
 
 * **Manual Mode:** Use arrow buttons on the patient app to drive (`F`, `B`, `L`, `R`, `S`, `U`).
 * **Room Navigation:** Select predefined route (e.g., `LB` for Living → Bedroom).
@@ -81,7 +81,7 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Sarathi-smart-wheelchair/
