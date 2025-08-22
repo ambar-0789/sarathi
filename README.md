@@ -1,9 +1,7 @@
 # Sarathi – The Smart Wheelchair
 
-🚀 **Sarathi** is a smart wheelchair system designed to empower patients with independent navigation and seamless caregiver connectivity.
+**Sarathi** is a smart wheelchair system designed to empower patients with independent navigation and seamless caregiver connectivity.
 It combines **ESP32-based motor control** with a **Mobile Application** for patients and guardians, enabling both **manual control** and **automated room-to-room navigation**, along with **real-time alerts, reminders and texts**.
-
----
 
 ## Features
 
@@ -38,21 +36,6 @@ It combines **ESP32-based motor control** with a **Mobile Application** for pati
 * **flutter\_local\_notifications + timezone** for reminders.
 
 ---
-
-## System Architecture
-
-```
-Flutter App (Patient) <--> Bluetooth <--> ESP32 (Motor Control)
-          |                                  |
-    Firebase Firestore  <-->  Flutter App (Guardian)
-```
-
-* Patient app sends driving/navigation commands to ESP32 over Bluetooth.
-* Guardian app monitors patient data & reminders via Firebase.
-* Both apps can chat in real-time.
-
----
-
 ## Installation
 
 ### Hardware Setup
